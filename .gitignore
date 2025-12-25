@@ -1,0 +1,23 @@
+# --- Secrets & Sensitive Info ---
+.env
+*.json
+# If you want to be specific instead of blocking all JSON:
+# CLIENT SECRET.json
+# credentials.json
+
+# --- Java & Build Folders ---
+target/
+build/
+*.class
+
+# --- Eclipse Metadata ---
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+
+# --- Operating System Files ---
+Thumbs.db
+desktop.ini
+.DS_Store
